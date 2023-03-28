@@ -7,12 +7,12 @@ import Body.BattleTypes.Terrestre;
 import Body.DogBody;
 import Body.DomesticBody;
 import Head.Head;
-
+//Quiz Project, only shows via terminal "actions" of the robots
 public class main {
     public static void main(String[] args) {
+
         Head battleHead = new Head("Darius");
         Head domesticHead = new Head("Mr.Musculo");
-        Head handymanHead = new Head ("Mani");
         Head genHead = new Head ("Truman");
 
         //Battle bodies
